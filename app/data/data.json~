@@ -1,0 +1,44 @@
+{  
+   "nom":"Soumille",
+   "prenom":"Lucas",
+   "age":"20 ans",
+   "presentation":"Etudiant en sciences informatiques au sein de l'établissement Polytech Nice Sophia.J'ai obtenu auparavant un DUT Informatique à l'IUT d'Aix-en-Provence.",
+   "lieu":"Orgon (Bouches-du-Rhône) / Sophia Antipolis (Alpes Maritimes)",
+   "cv":{  
+      "diplomes":{  
+         "ingénieur sécurité informatique":" 2014 (en cours) - Polytech Nice Sophia - Université Nice Sophia Antipolis",
+         "DUT informatique":"2014 (mention B) - IUT Aix Marseille Université site d'Aix-en-Provence",
+         "BAC S SVT":" 2012 (mention TB) - Lycée Ismaël Dauphin, Cavaillon, Académie Aix-Marseille"
+      },
+      "expériences":{  
+         "Stage DUT - SPIR Communication":" 2014 (10 semaines) - SPIR Communication - Aix-en-Provence /  Réalisation de deux applications web en ASP.NET destinées à la DSI du groupe SPIR. Ce stage m'a permis de découvrir le monde de l'entreprise et d'assimiler de nouvelles compétences. J'ai du apprendre à respecter un planning ainsi qu'un cahier des charges.",
+         "Cours informatique":"J'ai donné des cours d'informatique permettant une meilleure utilisation d'un ordinateur ainsi que les bonnes pratiques à adopter sur le web pour protéger ses données. Le contact avec des personnes novices a été très formateur."
+      },
+      "compétences spécialisées":{  
+         "Langage de programmation":"C/C++, JAVA, C#, SWIFT Assembleur MIPS, BASH, OpenGL",
+         "Développement WEB":"HTML5, CSS3, PHP5, JavaScript, JQuery, JQuery Mobile, Bootstrap3, ASP.NET",
+         "Base de données":"SQL, PL/SQL, Oracle, MSSQL, MERISE, Fouilles de données, Entrepôt de données",
+         "Réseau":"Ethernet, TCP/IP, UDP, NAT/PAT, DNS, OpenSSL, Socket en JAVA/C",
+         "Système d'exploitation":"Linux (Ubuntu), MAC OS, Windows",
+         "Logiciels":"Visual Studio, Eclipse, Intellij, WebStorm, AngularJS, Oracle SQL Developer, SQL Server, DBDesigner, Packet Tracer, DevExpress, Microsoft Office, Scilab, Metasploit"
+      },
+      "réalisations":{  
+         "C++ - Puissance 4":"Réalisation d'un puissance 4 en console avec une présentation orale devant les enseignants",
+         "JAVA - Algorithme de fouilles de données":"Récupération de nombreuses données issues de Twitter grâce à la librairie Twitter4J puis réalisation de l'algorithme permettant d'extraire les dépendances entre les différents mots.Le projet a été soutenu devant les enseignants.",
+         "Bootstrap/JavaScript/JSON/PHP - Site de gestion de joueurs":"Conception d'un site permettant à l'utilisateur de gérer son equipe de joueurs de NBA, le but de ce projet a été de me familiariser avec le JavaScript et le JSON.",
+         "Bootstrap/JQueryMobile/JSON/PHP - Site mobile de commande à un snack":"Conception d'un site responsive grâce à JQueryMobile qui permet à l'utilisateur de commander son menu.",
+         "OpenGL - Conception d'un cube dans l'espace":"Réalisation d'un cube tournant selon certains axes grâce aux calculs matriciels. L'utilisateur à la possibilité d'influencer sur la vitesse de la rotation ou sur son référentiel de vision.",
+         "Communication - Réalisation d'un court métrage":" Réalisation de BrainWashing un court métrage avec soutenance orale devant l'ensemble du département (Prix du meilleur scénario)."
+      }
+   },
+   "cursus":{  
+      "DUT Informatique (IUT Aix-en-Provence)":"Desc",
+      "Ingénieur Informatique (Polytech Nice Sophia)":"Polytech Nice-Sophia est l'école d'ingénieur de l'Université Nice - Sophia Antipolis. Elle fait partie du regroupement des écoles du réseau national Polytech d'école d'ingénieur polytechnique (Ecole Polytechnique Universitaire). L'école est implantée au coeur de la technopole Sophia-Antipolis, sur le campus SophiaTech."
+   },
+   "stage":{  
+      "SPIR Communication":"J'ai réalisé un stage de dix semaines au sein de l'entreprise SPIR Communication afin de valider mon DUT. Pour plus de précision sur ce stage, mon rapport est disponible en téléchargement"
+   },
+   "projet professionnel":{  
+      "Ingénieur sécurité informatique":"desc"
+   }
+}

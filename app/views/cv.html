@@ -1,0 +1,59 @@
+<div class="col-lg-offset-1 col-lg-11 milieu">
+  <ul class="navigation">
+  <li class="active">
+    <a data-toggle="tab" ng-click="affichDip()">
+      <h4>Diplômes</h4>
+    </a>
+  </li>
+  <li>
+    <a data-toggle="tab" ng-click="affichTech()">
+      <h4>Compétences Techniques</h4>
+    </a>
+  </li>
+  <li>
+    <a data-toggle="tab" ng-click="affichExp()">
+      <h4>Expériences</h4>
+    </a>
+  </li>
+  <li>
+    <a data-toggle="tab" ng-click="affichRea()">
+      <h4>Réalisations</h4>
+    </a>
+  </li>
+    <li>
+      <a href="docs/Lucas_SOUMILLE_CV.pdf">
+        <i class="fa fa-download fa-2x"></i>
+      </a>
+    </li>
+</ul>
+</div>
+<div class="container">
+  <div class="row">
+      <div class="col-lg-offset-1 col-lg-10 milieu panel" ng-switch on="selection">
+      <div ng-switch-when="diplomes">
+        <p class="mefCv">{{ingenieur}}</p>
+        <p class="mefCv">{{dut}}</p>
+        <p class="mefCv">{{bac}}</p>
+      </div>
+      <div ng-switch-when="technique">
+        <p class="blackFont"><span class="mefCv">Langages de programmation :</span> {{programmation}}</p>
+        <p class="blackFont"><span class="mefCv">Base de données :</span> {{base}}</p>
+        <p class="blackFont"><span class="mefCv"> Réseau :</span> {{reseau}} </p>
+        <p class="blackFont"><span class="mefCv">Système d'exploitation :</span> {{os}}</p>
+        <p class="blackFont"><span class="mefCv">Logiciels :</span> {{logiciels}}</p>
+      </div>
+      <div ng-switch-when="experience">
+        <p class="blackFont"><span class="mefCv">Stage DUT : </span> {{stage}}</p>
+        <p class="blackFont"><span class="mefCv">Cours informatique : </span>{{cours}}</p>
+      </div>
+      <div ng-switch-when="rea">
+        <p class="blackFont">{{c}}</p>
+        <p class="blueFont">{{java}}</p>
+        <p class="blackFont">{{bootstrap}}</p>
+        <p class="blueFont">{{mobile}}</p>
+        <p class="blackFont">{{opengl}}</p>
+        <p class="blueFont">{{communication}}</p>
+      </div>
+</div>
+</div>
+</div>
